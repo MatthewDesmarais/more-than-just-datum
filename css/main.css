@@ -1,3 +1,35 @@
 html {
   font-family: "IBM Plex Sans", sans-serif;
 }
+
+.tablewrapper {
+  min-width: 45em;
+}
+
+.card {
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.navlogo {
+   max-width: 200px;
+}
+
+.pnav {
+  background-color: #ddd;
+}
+
+.searchicon {
+  left: .3em;
+}
+
+.pannelnear {
+  background-color: #efefef;
+}
+
+@media only screen and (min-width: 76em) {
+
+  .tablewrapper {
+    overflow: visible;
+  }
+}
